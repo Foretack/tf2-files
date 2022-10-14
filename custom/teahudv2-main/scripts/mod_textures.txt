@@ -1,0 +1,29 @@
+#base "base/mod_textures.txt"
+
+"sprites/640_hud"
+{
+
+	TextureFileRefs
+	{
+		"dfile"
+		{
+			"prefix"		"d_"
+		}
+		"dnegfile"
+		{
+			"prefix"		"dneg_"
+		}
+	}
+	
+	TextureData
+	{
+		"obj_attachment_sapper"	//basehud wrong input, causes killfeed icon mess
+		{
+				"file"		"sprites/bucket_sapper"
+				"x"		"0"
+				"y"		"64"
+				"width"		"96"
+				"height"	"32"
+		}
+	}
+}
